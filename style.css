@@ -1,0 +1,199 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+
+.face-back-back{
+	background-color:#F1F2F6;
+}
+
+.face-back{
+	margin-left:10%;
+	margin-right:10%;
+	height:650px;
+}
+
+@media only screen and (max-width: 1140px){
+.face-back{
+	margin-left:5%;
+	margin-right:5%;
+	/*height:650px;*/
+}
+}
+
+.face-logo{
+	float:left;
+}
+
+.face-logo img{
+	margin-top:208px;
+}
+
+.face-logo .face-help{
+	font-size:28px;
+	font-family: SFProDisplay-Regular,
+	Helvetica, Arial, sans-serif;
+	width:490px;
+	padding-top:10px;
+	color:#1c1e21;
+}
+
+@media only screen and (max-width: 1075px){
+.face-logo .face-help{
+	font-size:23px;
+	line-height:32px;
+	width:350px;
+}
+}
+
+.face-bar{
+	border-radius:10px;
+	border:1px solid #FFFFFF;
+	background:#FFFFFF;
+	width:400px;
+	margin:auto;
+	text-align:center;
+	box-shadow: 0px 2px 4px rgb(0 0 0/10%), 
+	0px 8px 16px rgb(0 0 0/10%);
+}
+
+.face-bar input{
+	border:1px solid #dddfe2;
+	border-radius:6px;
+	width:350px;
+	height:50px;
+	box-shadow: 0px 2px #F4F4F4 inset;
+	outline-color:#8CB2E6;
+}
+
+/*.face-bar input:hover{
+	box-shadow:0 0 0 2px #e7f3ff;
+}*/
+
+.face-bar .input1{
+	margin: 15px 0px 7px 0px ;
+}
+
+.face-bar .input2{
+	margin: 7px 0px 15px 0px ;
+}
+
+.face-bar input[type="text"]{
+ 	font-size:17px;
+ 	padding-left:18px;
+}
+
+.face-bar .btn1{
+	background-color:#1977F3;
+	width:375px;
+	height:47px;
+	cursor:pointer;
+	border-radius:5px;
+	border:none;
+	color:#EEFCEB;
+	font-size:19px;
+	font-weight:bold;
+}
+
+.face-bar-all{
+	float:right;
+	box-sizing:border-box;
+	margin-top:130px;
+}
+
+.face-bar-all p{
+	margin:20px 0px 27px 0px;
+	color:#4A71B6;
+
+}
+
+.face-bar .btn2{
+	background-color:#4CB12D;
+	width:205px;
+	height:50px;
+	cursor:pointer;
+	border-radius:5px;
+	border:none;
+	color:#EEFCEB;
+	font-size:17px;
+	font-weight:bold;
+	margin:25px;
+}
+
+.hr1{
+	margin-left: 10px;
+	width: 375px;
+	border-bottom:1px solid #DDDDDD;
+	box-shadow:none;
+	outline:none;
+}
+
+.face-bar-all .create{
+	margin:30px 0px 30px 0px;
+	text-align:center;
+}
+
+.face-bar-all .create span{
+	font-weight:bold;
+}
+
+li, li button{
+	cursor:pointer;
+	margin:2px 12px 2px 12px;
+	list-style:none;
+
+}
+
+.first-list{
+	margin-top:34px;
+}
+
+.first-list, .second-list,li a{
+	font-size:12px;
+	color:#8a8d91;
+	text-align:center;
+	display:flex;
+	flex-wrap:wrap;
+	text-decoration:none;
+}
+
+.first-list li button{
+	width:30px;
+	height:20px;
+}
+
+.hr2{
+	border-bottom:1px solid #dadde1;
+}
+
+.all-list{
+	height:150px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.all-list p{
+	color:#8a8d91;
+	font-size:12px;
+	margin-left:5px;
+	margin-top:29px;
+}
+
+
+@media only screen and (max-width: 900px){
+
+.face-logo img{
+	margin-top:40px;
+}
+
+.face-back{
+	margin:auto;
+	text-align:center;
+	height:750px;
+	width:400px;
+}
+
+.face-bar-all{
+	margin-top:15px;
+}
+
